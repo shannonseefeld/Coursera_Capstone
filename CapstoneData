@@ -1,0 +1,17 @@
+Data:
+For this project I will be using the FourSquare API. 
+
+Search: https://developer.foursquare.com/docs/api/venues/search
+  Using the search call I will be seeing what current venues are in the area of Washington DC
+Trending: GET https://api.foursquare.com/v2/venues/trending
+  To see if there is any trending chinese resturants in the area
+Likes: GET https://api.foursquare.com/v2/venues/VENUE_ID/likes
+  See if any chinese food resturants got likes and how many
+Simliar:GET https://api.foursquare.com/v2/venues/VENUE_ID/similar
+  See if any resutarnts that are simliar to chinese are around. - ie: pan asian, 
+
+
+I would also mabye like to pull in a Json geo file of Washington DC
+ that could be used for mappings later. 
+ http://opendata.dc.gov/ 
+ http://data.codefordc.org/dataset/dc-wards-map-overlay 
