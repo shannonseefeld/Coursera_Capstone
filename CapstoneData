@@ -1,5 +1,8 @@
 Data:
-For this project I will be using the FourSquare API. 
+For this project I will be using the FourSquare API to look at the surrounding city for similar venues and foot traffic as well as a JSON 
+geo file of washington DC in order to map out analytics using folium. 
+
+Within the foursquare API i will be using the following endpoints.
 
 Search: https://developer.foursquare.com/docs/api/venues/search
   Using the search call I will be seeing what current venues are in the area of Washington DC
