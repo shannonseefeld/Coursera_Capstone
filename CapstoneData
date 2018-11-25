@@ -6,12 +6,22 @@ Within the foursquare API i will be using the following endpoints.
 
 Search: https://developer.foursquare.com/docs/api/venues/search
   Using the search call I will be seeing what current venues are in the area of Washington DC
+  For example if using the search query you see there are several chinese food establishments in the surrounding area
+  you might want to look somewhere else. 
+  
 Trending: GET https://api.foursquare.com/v2/venues/trending
-  To see if there is any trending chinese resturants in the area
+  To see if there is any trending chinese resturants in the area. If for exmple there are several chinese food places around but none 
+  are trending that might indicate the food is not well liked which could be a way in for your new establishment. Or perhaps the trending food 
+  in the area is Italian -that might indicate Chiense food might not be the best palce for the people in that neighborhood.
+  
 Likes: GET https://api.foursquare.com/v2/venues/VENUE_ID/likes
-  See if any chinese food resturants got likes and how many
+  See if any chinese food resturants got likes and how many. Going along with the trending. How many chinese places have a lot of likes
+  or which ones dont have any likes. If there is a chinese establishjent with no likes then again might be agood place for your to set up 
+  shop.
+  
 Simliar:GET https://api.foursquare.com/v2/venues/VENUE_ID/similar
-  See if any resutarnts that are simliar to chinese are around. - ie: pan asian, 
+  See if any resutarnts that are simliar to chinese are around. - ie: pan asian, Is there alot of foot traffic for asian cusine in the
+  neighbrohood. 
 
 
 I would also mabye like to pull in a Json geo file of Washington DC
